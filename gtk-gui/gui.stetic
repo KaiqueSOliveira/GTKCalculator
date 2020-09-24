@@ -11,13 +11,12 @@
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">Center</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
-    <signal name="KeysChanged" handler="OnKeysChanged" />
     <child>
       <widget class="Gtk.VBox" id="vbox2">
         <property name="MemberName" />
         <property name="Spacing">-11</property>
         <child>
-          <widget class="Gtk.Entry" id="entry1">
+          <widget class="Gtk.Entry" id="resbox">
             <property name="MemberName" />
             <property name="HeightRequest">80</property>
             <property name="Sensitive">False</property>
@@ -34,7 +33,7 @@
           </packing>
         </child>
         <child>
-          <widget class="Gtk.Entry" id="entry3">
+          <widget class="Gtk.Entry" id="numbox">
             <property name="MemberName" />
             <property name="HeightRequest">73</property>
             <property name="CanFocus">True</property>
@@ -384,6 +383,7 @@
             <child>
               <widget class="Gtk.Button" id="button24">
                 <property name="MemberName">Num7</property>
+                <property name="CanDefault">True</property>
                 <property name="CanFocus">True</property>
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">7</property>

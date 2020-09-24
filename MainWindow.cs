@@ -12,14 +12,14 @@ public partial class MainWindow : Gtk.Window
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
         Build();
-        entry3.IsFocus = true;
+        numbox.IsFocus = true;
         Pango.FontDescription font = new Pango.FontDescription();
         font.Size = 40000;
-        entry3.ModifyFont(font);
-        entry3.Alignment = 1;
+        numbox.ModifyFont(font);
+        numbox.Alignment = 1;
     }
 
-    protected void OnDeleteEvent(object sender, DeleteEventArgs a)
+    protected void OnDeleteEvent(object sender, DeleteEventArgs a)                              
     {
         Application.Quit();
         a.RetVal = true;
@@ -29,19 +29,23 @@ public partial class MainWindow : Gtk.Window
     {
         n = 7;
         if (operatorFlag == true)
-            {
-                n2 = n;       
-            }
-            else
-            {
-                n1 = n;
-            }
-
-        entry3.Text += Convert.ToString(n);
+        {
+            n2 = n;
+        }
+        else
+        {
+            n1 = n;
+        }
+         
+        numbox.Text += Convert.ToString(n);
     }
 
-    protected void OnKeysChanged(object sender, EventArgs e)
+    protected void KeyPress(object sender, KeyPressEventArgs e)
     {
-
+        EventArgs args = new EventArgs(); 
+        if (e.Event.Key == Gdk.Key.L7)
+        {
+            SevenClicked(sender,args);
+        }
     }
 }

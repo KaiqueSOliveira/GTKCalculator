@@ -5,9 +5,9 @@ public partial class MainWindow
 {
 	private global::Gtk.VBox vbox2;
 
-	private global::Gtk.Entry entry1;
+	private global::Gtk.Entry resbox;
 
-	private global::Gtk.Entry entry3;
+	private global::Gtk.Entry numbox;
 
 	private global::Gtk.Table table1;
 
@@ -63,29 +63,29 @@ public partial class MainWindow
 		this.vbox2.Name = "vbox2";
 		this.vbox2.Spacing = -11;
 		// Container child vbox2.Gtk.Box+BoxChild
-		this.entry1 = new global::Gtk.Entry();
-		this.entry1.HeightRequest = 80;
-		this.entry1.Sensitive = false;
-		this.entry1.CanFocus = true;
-		this.entry1.Name = "entry1";
-		this.entry1.IsEditable = false;
-		this.entry1.HasFrame = false;
-		this.entry1.InvisibleChar = '•';
-		this.vbox2.Add(this.entry1);
-		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.entry1]));
+		this.resbox = new global::Gtk.Entry();
+		this.resbox.HeightRequest = 80;
+		this.resbox.Sensitive = false;
+		this.resbox.CanFocus = true;
+		this.resbox.Name = "resbox";
+		this.resbox.IsEditable = false;
+		this.resbox.HasFrame = false;
+		this.resbox.InvisibleChar = '•';
+		this.vbox2.Add(this.resbox);
+		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.resbox]));
 		w1.Position = 0;
 		w1.Expand = false;
 		w1.Fill = false;
 		// Container child vbox2.Gtk.Box+BoxChild
-		this.entry3 = new global::Gtk.Entry();
-		this.entry3.HeightRequest = 73;
-		this.entry3.CanFocus = true;
-		this.entry3.Name = "entry3";
-		this.entry3.IsEditable = true;
-		this.entry3.ActivatesDefault = true;
-		this.entry3.InvisibleChar = '•';
-		this.vbox2.Add(this.entry3);
-		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.entry3]));
+		this.numbox = new global::Gtk.Entry();
+		this.numbox.HeightRequest = 73;
+		this.numbox.CanFocus = true;
+		this.numbox.Name = "numbox";
+		this.numbox.IsEditable = true;
+		this.numbox.ActivatesDefault = true;
+		this.numbox.InvisibleChar = '•';
+		this.vbox2.Add(this.numbox);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.numbox]));
 		w2.Position = 1;
 		w2.Fill = false;
 		// Container child vbox2.Gtk.Box+BoxChild
@@ -281,6 +281,7 @@ public partial class MainWindow
 		w16.YOptions = ((global::Gtk.AttachOptions)(4));
 		// Container child table1.Gtk.Table+TableChild
 		this.button24 = new global::Gtk.Button();
+		this.button24.CanDefault = true;
 		this.button24.CanFocus = true;
 		this.button24.Name = "button24";
 		this.button24.UseUnderline = true;
@@ -355,7 +356,6 @@ public partial class MainWindow
 		this.DefaultHeight = 385;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
-		this.KeysChanged += new global::System.EventHandler(this.OnKeysChanged);
 		this.button24.Clicked += new global::System.EventHandler(this.SevenClicked);
 	}
 }
