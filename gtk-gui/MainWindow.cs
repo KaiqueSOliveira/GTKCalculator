@@ -100,6 +100,7 @@ public partial class MainWindow
 		this.btn_1.CanFocus = true;
 		this.btn_1.Name = "btn_1";
 		this.btn_1.UseUnderline = true;
+		this.btn_1.FocusOnClick = false;
 		this.btn_1.Label = global::Mono.Unix.Catalog.GetString("1");
 		this.table1.Add(this.btn_1);
 		global::Gtk.Table.TableChild w3 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_1]));
@@ -112,6 +113,7 @@ public partial class MainWindow
 		this.btn_2.CanFocus = true;
 		this.btn_2.Name = "btn_2";
 		this.btn_2.UseUnderline = true;
+		this.btn_2.FocusOnClick = false;
 		this.btn_2.Label = global::Mono.Unix.Catalog.GetString("2");
 		this.table1.Add(this.btn_2);
 		global::Gtk.Table.TableChild w4 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_2]));
@@ -125,6 +127,7 @@ public partial class MainWindow
 		this.btn_3.CanFocus = true;
 		this.btn_3.Name = "btn_3";
 		this.btn_3.UseUnderline = true;
+		this.btn_3.FocusOnClick = false;
 		this.btn_3.Label = global::Mono.Unix.Catalog.GetString("3");
 		this.table1.Add(this.btn_3);
 		global::Gtk.Table.TableChild w5 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_3]));
@@ -139,6 +142,7 @@ public partial class MainWindow
 		this.btn_4.CanFocus = true;
 		this.btn_4.Name = "btn_4";
 		this.btn_4.UseUnderline = true;
+		this.btn_4.FocusOnClick = false;
 		this.btn_4.Label = global::Mono.Unix.Catalog.GetString("4");
 		this.table1.Add(this.btn_4);
 		global::Gtk.Table.TableChild w6 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_4]));
@@ -151,6 +155,7 @@ public partial class MainWindow
 		this.btn_5.CanFocus = true;
 		this.btn_5.Name = "btn_5";
 		this.btn_5.UseUnderline = true;
+		this.btn_5.FocusOnClick = false;
 		this.btn_5.Label = global::Mono.Unix.Catalog.GetString("5");
 		this.table1.Add(this.btn_5);
 		global::Gtk.Table.TableChild w7 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_5]));
@@ -164,6 +169,7 @@ public partial class MainWindow
 		this.btn_6.CanFocus = true;
 		this.btn_6.Name = "btn_6";
 		this.btn_6.UseUnderline = true;
+		this.btn_6.FocusOnClick = false;
 		this.btn_6.Label = global::Mono.Unix.Catalog.GetString("6");
 		this.table1.Add(this.btn_6);
 		global::Gtk.Table.TableChild w8 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_6]));
@@ -200,6 +206,7 @@ public partial class MainWindow
 		this.btn_9.CanFocus = true;
 		this.btn_9.Name = "btn_9";
 		this.btn_9.UseUnderline = true;
+		this.btn_9.FocusOnClick = false;
 		this.btn_9.Label = global::Mono.Unix.Catalog.GetString("9");
 		this.table1.Add(this.btn_9);
 		global::Gtk.Table.TableChild w11 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_9]));
@@ -210,6 +217,7 @@ public partial class MainWindow
 		this.btn_zero.CanFocus = true;
 		this.btn_zero.Name = "btn_zero";
 		this.btn_zero.UseUnderline = true;
+		this.btn_zero.FocusOnClick = false;
 		this.btn_zero.Label = global::Mono.Unix.Catalog.GetString("0");
 		this.table1.Add(this.btn_zero);
 		global::Gtk.Table.TableChild w12 = ((global::Gtk.Table.TableChild)(this.table1[this.btn_zero]));
@@ -222,6 +230,7 @@ public partial class MainWindow
 		this.clean.CanFocus = true;
 		this.clean.Name = "clean";
 		this.clean.UseUnderline = true;
+		this.clean.FocusOnClick = false;
 		this.clean.Label = global::Mono.Unix.Catalog.GetString("C");
 		this.table1.Add(this.clean);
 		global::Gtk.Table.TableChild w13 = ((global::Gtk.Table.TableChild)(this.table1[this.clean]));
@@ -232,6 +241,7 @@ public partial class MainWindow
 		this.comma.CanFocus = true;
 		this.comma.Name = "comma";
 		this.comma.UseUnderline = true;
+		this.comma.FocusOnClick = false;
 		this.comma.Label = global::Mono.Unix.Catalog.GetString(",");
 		this.table1.Add(this.comma);
 		global::Gtk.Table.TableChild w14 = ((global::Gtk.Table.TableChild)(this.table1[this.comma]));
@@ -245,6 +255,7 @@ public partial class MainWindow
 		this.div.CanFocus = true;
 		this.div.Name = "div";
 		this.div.UseUnderline = true;
+		this.div.FocusOnClick = false;
 		this.div.Label = global::Mono.Unix.Catalog.GetString("/");
 		this.table1.Add(this.div);
 		global::Gtk.Table.TableChild w15 = ((global::Gtk.Table.TableChild)(this.table1[this.div]));
@@ -255,6 +266,7 @@ public partial class MainWindow
 		this.equal.CanFocus = true;
 		this.equal.Name = "equal";
 		this.equal.UseUnderline = true;
+		this.equal.FocusOnClick = false;
 		this.equal.Label = global::Mono.Unix.Catalog.GetString("=");
 		this.table1.Add(this.equal);
 		global::Gtk.Table.TableChild w16 = ((global::Gtk.Table.TableChild)(this.table1[this.equal]));
@@ -268,6 +280,7 @@ public partial class MainWindow
 		this.exp.CanFocus = true;
 		this.exp.Name = "exp";
 		this.exp.UseUnderline = true;
+		this.exp.FocusOnClick = false;
 		this.exp.Label = global::Mono.Unix.Catalog.GetString("x²");
 		this.table1.Add(this.exp);
 		global::Gtk.Table.TableChild w17 = ((global::Gtk.Table.TableChild)(this.table1[this.exp]));
@@ -281,6 +294,7 @@ public partial class MainWindow
 		this.minus.CanFocus = true;
 		this.minus.Name = "minus";
 		this.minus.UseUnderline = true;
+		this.minus.FocusOnClick = false;
 		this.minus.Label = global::Mono.Unix.Catalog.GetString("-");
 		this.table1.Add(this.minus);
 		global::Gtk.Table.TableChild w18 = ((global::Gtk.Table.TableChild)(this.table1[this.minus]));
@@ -295,6 +309,7 @@ public partial class MainWindow
 		this.mult.CanFocus = true;
 		this.mult.Name = "mult";
 		this.mult.UseUnderline = true;
+		this.mult.FocusOnClick = false;
 		this.mult.Label = global::Mono.Unix.Catalog.GetString("*");
 		this.table1.Add(this.mult);
 		global::Gtk.Table.TableChild w19 = ((global::Gtk.Table.TableChild)(this.table1[this.mult]));
@@ -309,6 +324,7 @@ public partial class MainWindow
 		this.percentage.CanFocus = true;
 		this.percentage.Name = "percentage";
 		this.percentage.UseUnderline = true;
+		this.percentage.FocusOnClick = false;
 		this.percentage.Label = global::Mono.Unix.Catalog.GetString("%");
 		this.table1.Add(this.percentage);
 		global::Gtk.Table.TableChild w20 = ((global::Gtk.Table.TableChild)(this.table1[this.percentage]));
@@ -323,6 +339,7 @@ public partial class MainWindow
 		this.root.CanFocus = true;
 		this.root.Name = "root";
 		this.root.UseUnderline = true;
+		this.root.FocusOnClick = false;
 		this.root.Label = global::Mono.Unix.Catalog.GetString("raiz");
 		this.table1.Add(this.root);
 		global::Gtk.Table.TableChild w21 = ((global::Gtk.Table.TableChild)(this.table1[this.root]));
@@ -362,7 +379,24 @@ public partial class MainWindow
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 		this.numbox.KeyPressEvent += new global::Gtk.KeyPressEventHandler(this.OnNumboxKeyPressEvent);
 		this.sum.Clicked += new global::System.EventHandler(this.OnSumClicked);
+		this.root.Clicked += new global::System.EventHandler(this.OnRootClicked);
+		this.percentage.Clicked += new global::System.EventHandler(this.OnPercentageClicked);
+		this.mult.Clicked += new global::System.EventHandler(this.OnMultClicked);
+		this.minus.Clicked += new global::System.EventHandler(this.OnMinusClicked);
+		this.exp.Clicked += new global::System.EventHandler(this.OnExpClicked);
+		this.equal.Clicked += new global::System.EventHandler(this.OnEqualClicked);
+		this.div.Clicked += new global::System.EventHandler(this.OnDivClicked);
+		this.comma.Clicked += new global::System.EventHandler(this.OnCommaClicked);
+		this.clean.Clicked += new global::System.EventHandler(this.OnCleanClicked);
+		this.btn_zero.Clicked += new global::System.EventHandler(this.OnBtnZeroClicked);
+		this.btn_9.Clicked += new global::System.EventHandler(this.OnBtn9Clicked);
 		this.btn_8.Clicked += new global::System.EventHandler(this.OnBtn8Clicked);
 		this.btn_7.Clicked += new global::System.EventHandler(this.OnBtn7Clicked);
+		this.btn_6.Clicked += new global::System.EventHandler(this.OnBtn6Clicked);
+		this.btn_5.Clicked += new global::System.EventHandler(this.OnBtn5Clicked);
+		this.btn_4.Clicked += new global::System.EventHandler(this.OnBtn4Clicked);
+		this.btn_3.Clicked += new global::System.EventHandler(this.OnBtn3Clicked);
+		this.btn_2.Clicked += new global::System.EventHandler(this.OnBtn2Clicked);
+		this.btn_1.Clicked += new global::System.EventHandler(this.OnBtn1Clicked);
 	}
 }

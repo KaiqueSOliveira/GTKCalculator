@@ -6,7 +6,7 @@
   <import>
     <widget-library name="../bin/Debug/Calculadora.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="289 384">
+  <widget class="Gtk.Window" id="MainWindow" design-size="293 384">
     <property name="MemberName" />
     <property name="CanFocus">True</property>
     <property name="Title" translatable="yes">MainWindow</property>
@@ -64,6 +64,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">1</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn1Clicked" />
               </widget>
               <packing>
                 <property name="TopAttach">2</property>
@@ -86,6 +88,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">2</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn2Clicked" />
               </widget>
               <packing>
                 <property name="TopAttach">2</property>
@@ -109,6 +113,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">3</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn3Clicked" />
               </widget>
               <packing>
                 <property name="TopAttach">2</property>
@@ -133,6 +139,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">4</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn4Clicked" />
               </widget>
               <packing>
                 <property name="TopAttach">1</property>
@@ -155,6 +163,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">5</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn5Clicked" />
               </widget>
               <packing>
                 <property name="TopAttach">1</property>
@@ -178,6 +188,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">6</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn6Clicked" />
               </widget>
               <packing>
                 <property name="TopAttach">1</property>
@@ -246,6 +258,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">9</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtn9Clicked" />
               </widget>
               <packing>
                 <property name="LeftAttach">2</property>
@@ -266,6 +280,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">0</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBtnZeroClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">3</property>
@@ -288,6 +304,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">C</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnCleanClicked" />
               </widget>
               <packing>
                 <property name="LeftAttach">4</property>
@@ -308,6 +326,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">,</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnCommaClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">3</property>
@@ -331,6 +351,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">/</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnDivClicked" />
               </widget>
               <packing>
                 <property name="LeftAttach">3</property>
@@ -351,6 +373,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">=</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnEqualClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">3</property>
@@ -374,6 +398,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">x²</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnExpClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">1</property>
@@ -397,6 +423,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">-</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnMinusClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">2</property>
@@ -421,6 +449,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">*</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnMultClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">1</property>
@@ -445,6 +475,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">%</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnPercentageClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">3</property>
@@ -469,6 +501,8 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">raiz</property>
                 <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnRootClicked" />
               </widget>
               <packing>
                 <property name="TopAttach">2</property>
